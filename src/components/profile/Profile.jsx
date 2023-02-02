@@ -7,7 +7,7 @@ function Profile({ data, handleName }) {
   return (
     <div className="Profile">
       
-        {handleName()}
+        {handleName("leila")}
         {data.map((elt, index) => (
           <Items {...elt} key={index}>
             <img
